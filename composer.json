@@ -1,0 +1,34 @@
+{
+    "name": "iaasen/laminas-common",
+    "description": "Practical laminas implementations used by multiple web sites.",
+    "license": "proprietary",
+    "keywords": [],
+    "require": {
+        "php": "^8.2",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "laminas/laminas-cli": "^1",
+        "laminas/laminas-db": "^2",
+        "laminas/laminas-modulemanager": "^2",
+        "laminas/laminas-navigation": "^2",
+        "laminas/laminas-view": "^2",
+        "laminas-api-tools/api-tools-rest": "^1",
+        "guzzlehttp/guzzle": "^7",
+        "symfony/mailer": "^7",
+        "phpdocumentor/reflection-docblock": "^5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Iaasen\\": "src/Iaasen"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
