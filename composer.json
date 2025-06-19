@@ -31,7 +31,7 @@
             "Iaasen\\View\\": "src/Iaasen/View/",
             "Oppned\\": "src/Oppned/"
         },
-        'classmap': [
+        "classmap": [
             "src/Iaasen/Module.php"
         ]
     },
