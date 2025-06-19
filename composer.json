@@ -30,10 +30,7 @@
             "Iaasen\\Service\\": "src/Iaasen/Service/",
             "Iaasen\\View\\": "src/Iaasen/View/",
             "Oppned\\": "src/Oppned/"
-        },
-        "classmap": [
-            "Module.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
