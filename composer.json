@@ -21,7 +21,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Iaasen\\Controller\\": "src/Controller/"
+            "Iaasen\\Controller\\": "src/Iaasen/Controller/",
+            "Iaasen\\Factory\\": "src/Iaasen/Factory/",
+            "Iaasen\\Form\\": "src/Iaasen/Form/",
+            "Iaasen\\Initializer\\": "src/Iaasen/Initializer/",
+            "Iaasen\\Messenger\\": "src/Iaasen/Messenger/",
+            "Iaasen\\Navigation\\": "src/Iaasen/Navigation/",
+            "Iaasen\\Service\\": "src/Iaasen/Service/",
+            "Iaasen\\View\\": "src/Iaasen/View/",
+            "Oppned\\": "src/Oppned/"
         }
     },
     "autoload-dev": {
