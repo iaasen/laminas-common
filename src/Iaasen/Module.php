@@ -1,5 +1,7 @@
 <?php
 
+namespace Iaasen;
+
 use Laminas\ModuleManager\Feature\ConfigProviderInterface;
 
 /**
