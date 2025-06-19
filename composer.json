@@ -21,11 +21,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Iaasen\\": "src/Iaasen"
-        },
-        "classmap": [
-            "Module.php"
-        ]
+            "Iaasen\\Controller\\": "src/Controller/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
