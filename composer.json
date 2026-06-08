@@ -28,8 +28,7 @@
             "Iaasen\\Messenger\\": "src/Iaasen/Messenger/",
             "Iaasen\\Navigation\\": "src/Iaasen/Navigation/",
             "Iaasen\\Service\\": "src/Iaasen/Service/",
-            "Iaasen\\View\\": "src/Iaasen/View/",
-            "Oppned\\": "src/Oppned/"
+            "Iaasen\\View\\": "src/Iaasen/View/"
         },
         "classmap": [
             "src/Iaasen/Module.php"
