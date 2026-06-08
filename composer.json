@@ -4,14 +4,14 @@
     "license": "proprietary",
     "keywords": [],
     "require": {
-        "php": "^8.2",
+        "php": "^8.2|^8.4",
         "ext-intl": "*",
         "ext-json": "*",
         "laminas/laminas-cli": "^1",
         "laminas/laminas-db": "^2",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-navigation": "^2",
-        "laminas/laminas-view": "^2",
+        "laminas/laminas-view": "^3",
         "guzzlehttp/guzzle": "^7",
         "symfony/mailer": "^7",
         "phpdocumentor/reflection-docblock": "^5"
