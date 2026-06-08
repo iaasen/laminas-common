@@ -11,7 +11,7 @@
         "laminas/laminas-db": "^2",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-navigation": "^2",
-        "laminas/laminas-view": "^3",
+        "laminas/laminas-view": "^2|^3",
         "guzzlehttp/guzzle": "^7",
         "symfony/mailer": "^7",
         "phpdocumentor/reflection-docblock": "^5"
