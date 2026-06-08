@@ -12,7 +12,6 @@
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-navigation": "^2",
         "laminas/laminas-view": "^2",
-        "laminas-api-tools/api-tools-rest": "^1",
         "guzzlehttp/guzzle": "^7",
         "symfony/mailer": "^7",
         "phpdocumentor/reflection-docblock": "^5"
