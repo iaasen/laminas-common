@@ -1,13 +1,12 @@
 {
     "name": "iaasen/laminas-common",
-    "description": "Practical laminas implementations used by multiple web sites.",
+    "description": "Practical laminas implementations used by swiss, kundeportal and partnernett.",
     "license": "proprietary",
     "keywords": [],
     "require": {
         "php": "^8.2|^8.4",
         "ext-intl": "*",
         "ext-json": "*",
-        "laminas/laminas-cli": "^1",
         "laminas/laminas-db": "^2",
         "laminas/laminas-modulemanager": "^2",
         "laminas/laminas-navigation": "^2",
