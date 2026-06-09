@@ -15,9 +15,6 @@ return [
 		],
 		'factories' => [
 			'navigation' => \Laminas\Navigation\Service\DefaultNavigationFactory::class,
-			\Oppned\Log\Logger::class => \Oppned\Log\LoggerFactory::class,
-			\Oppned\Log\LogTable::class => \Oppned\Log\LogTableFactory::class,
-			\Oppned\Log\LogTableGateway::class => \Oppned\Log\LogTableGatewayFactory::class,
 			\Iaasen\Messenger\EmailService::class => \Iaasen\Messenger\EmailServiceFactory::class,
 			\Iaasen\Service\LaminasMvcConfig::class => \Iaasen\Service\LaminasMvcConfigFactory::class
 		],
@@ -53,8 +50,6 @@ return [
             'numbers' => Numbers::class
 		],
         'invokables' => [
-			'makeFormHorizontal' => \Oppned\View\Helper\BootstrapFormHorizontal::class,
-			'makeBootstrapFormHorizontal' => \Oppned\View\Helper\BootstrapFormHorizontal::class,
 			'formRowHorizontal' => \Iaasen\View\Helper\FormRowHorizontal::class,
             Numbers::class => Numbers::class,
         ],
