@@ -1,7 +1,6 @@
 <?php
 namespace Iaasen;
 
-
 use Iaasen\Initializer\NavigationInitializer;
 use Iaasen\Initializer\ViewRendererInitializer;
 use Laminas\ServiceManager\AbstractFactory\ReflectionBasedAbstractFactory;
@@ -11,7 +10,6 @@ return [
 	],
 	'service_manager' => [
 		'abstract_factories' => [
-			\Laminas\Navigation\Service\NavigationAbstractServiceFactory::class,
 		],
 		'factories' => [
 			'navigation' => \Laminas\Navigation\Service\DefaultNavigationFactory::class,
@@ -23,7 +21,6 @@ return [
 			\Iaasen\Messenger\SessionMessenger::class => \Iaasen\Messenger\SessionMessenger::class,
 		],
 		'aliases' => [
-			'Logger' => \Oppned\Log\Logger::class,
 		]
 	],
 	'controllers' => [
