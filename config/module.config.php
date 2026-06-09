@@ -47,10 +47,13 @@ return [
 	'view_helpers' => [
 		'aliases' => [
 			'messages' => \Iaasen\Messenger\SessionMessengerViewHelper::class,
-            'numbers' => Numbers::class
+            'numbers' => Numbers::class,
+            'formRow' =>  \Iaasen\View\Helper\FormRow::class,
+            'formRowHorizontal' => \Iaasen\View\Helper\FormRowHorizontal::class,
 		],
         'invokables' => [
-			'formRowHorizontal' => \Iaasen\View\Helper\FormRowHorizontal::class,
+			\Iaasen\View\Helper\FormRowHorizontal::class,
+            \Iaasen\View\Helper\FormRow::class,
             Numbers::class => Numbers::class,
         ],
 		'factories' => [
