@@ -48,12 +48,15 @@ return [
 		'aliases' => [
 			'messages' => \Iaasen\Messenger\SessionMessengerViewHelper::class,
             'numbers' => Numbers::class,
+            'form_row' =>  \Iaasen\View\Helper\FormRow::class,
+            'formrow' =>  \Iaasen\View\Helper\FormRow::class,
             'formRow' =>  \Iaasen\View\Helper\FormRow::class,
+            'FormRow' =>  \Iaasen\View\Helper\FormRow::class,
             'formRowHorizontal' => \Iaasen\View\Helper\FormRowHorizontal::class,
 		],
         'invokables' => [
-			\Iaasen\View\Helper\FormRowHorizontal::class,
-            \Iaasen\View\Helper\FormRow::class,
+            \Iaasen\View\Helper\FormRowHorizontal::class => \Iaasen\View\Helper\FormRowHorizontal::class,
+            \Iaasen\View\Helper\FormRow::class => \Iaasen\View\Helper\FormRow::class,
             Numbers::class => Numbers::class,
         ],
 		'factories' => [

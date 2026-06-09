@@ -16,9 +16,11 @@ class FormRow extends \Laminas\Form\View\Helper\FormRow
     public function render(\Laminas\Form\ElementInterface $element, ?string $labelPosition = null): string
     {
         $view = $this->getView();
+        $label = $element->getLabel() ? $view->formLabel($element) : '';
+
         return sprintf(
             '<div class="form-group">%s%s%s</div>',
-            $view->formLabel($element),
+            $label,
             $view->formElement($element),
             $view->formElementErrors($element)
         );
